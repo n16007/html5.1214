@@ -1,0 +1,15 @@
+.vjs-default-skin { cursor:pointer; margin-bottom:3em; }
+.vjs-default-skin .vjs-big-play-button { top: 0; left: 0; right: 0; bottom: 0; margin: auto; }
+.vjs-default-skin .vjs-control-bar { display:block; bottom:-3em; z-index: 1; }
+.vjs-default-skin.vjs-my-fullscreen .vjs-control-bar { bottom:0; }
+.vjs-default-skin.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+  opacity:1;
+  visibility:visible;
+  -webkit-transition:none;
+  -moz-transition:none;
+  -o-transition:none;
+  transition:none;
+}
+.vjs-default-skin.vjs-has-started.vjs-user-inactive .vjs-progress-control {
+  opacity:0.1;
+}

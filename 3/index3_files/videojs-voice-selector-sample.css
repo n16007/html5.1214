@@ -1,0 +1,41 @@
+/* Position the button */
+.vjs-control.vjs-voice-button {
+    float: right;
+    line-height: 3em;
+    margin-left:1.5em;
+    width:8em;
+}
+
+.vjs-voice-button .vjs-menu {
+    left: 0.5em;
+    border-left-width: 3.5em;
+    border-right-width: 3.5em;
+}
+
+.vjs-voice-button .vjs-menu-content {
+    width: auto !important;
+    left: -14em !important;
+    padding: 0 !important;
+    border-radius: 4px !important;
+}
+
+.vjs-voice-button .vjs-menu-content li {
+    font-size: 11px !important;
+    padding: 4px 2px !important;
+    background: rgba(80, 50 , 30, 0.7) !important;
+}
+.vjs-voice-button .vjs-menu-content li:hover {
+    background: rgba(80, 50 , 30, 0.7) !important;
+    color: #ccc !important;
+}
+
+.vjs-voice-premium-navi {
+    width: 26em !important;
+    padding: 1em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.vjs-voice-button:hover {
+    background: rgba(60, 60 , 60, 0.8) !important;
+}

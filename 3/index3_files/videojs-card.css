@@ -1,0 +1,136 @@
+.vjs-card {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    -ms-filter: "alpha(opacity=0)"; /* IE 8 */
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 8px;
+    font-size: 11px;
+    border-radius: 4px;
+    transition: opacity .8s ease;
+}
+
+.vjs-card.vjs-card-theme-light {
+    color: #000;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.vjs-card.vjs-card-top {
+    top: 0;
+    bottom: auto;
+}
+
+.vjs-card.vjs-card-bottom {
+    top: auto;
+    bottom: 0;
+}
+
+.vjs-card.vjs-card-left {
+    left: 0;
+    right: auto;
+}
+
+.vjs-card.vjs-card-right {
+    left: auto;
+    right: 0;
+}
+
+.vjs-card > a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.vjs-card > a:hover {
+    color: #ccc;
+}
+
+.vjs-card.vjs-comment-card {
+    margin: 4px;
+    font-size: 14px;
+}
+
+.vjs-card.vjs-normal-card {
+    margin: 8px;
+    font-size: 14px;
+}
+
+.vjs-card.vjs-summary-card {
+    top: 10%;
+    left: 10%;
+    height: 70%;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.vjs-card.vjs-summary-card .title {
+    margin-left: 12px;
+}
+
+.vjs-card.vjs-center-card {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.vjs-center-card-contents {
+    padding: 8px 0;
+}
+
+.vjs-center-card-contents a.link {
+    color: #33bbff;
+    text-decoration: underline;
+}
+
+.vjs-center-card-header {
+    margin: 0 0 24px 0;
+}
+
+.vjs-center-card-go-to {
+    margin: 32px 0 0 0;
+}
+
+.vjs-card.vjs-card-show {
+    display: inline-block;
+    opacity: 1;
+    -ms-filter: "alpha(opacity=1)"; /* IE 8 */
+    visibility: visible;
+    transition: opacity .8s ease;
+}
+
+.vjs-card.vjs-card-hidden {
+    visibility: hidden;
+}
+
+.vjs-card.vjs-card-hidden-strongly {
+    visibility: hidden !important;
+}
+
+.vjs-card .vjs-card-close {
+    float: right;
+    margin-right: 8px;
+    display: block;
+    color: #fff;
+    font-size: 16px;
+}
+
+.vjs-card .vjs-card-keybind {
+    margin-left: 0.3em;
+}
+
+.vjs-card .vjs-card-keybind:last-child {
+}
+
+.vjs-card .vjs-card-divider {
+    padding: 0 5px;
+}
+
+.vjs-card-marker {
+    width: 6px;
+    height: 100%;
+    position: absolute;
+    background: #fcee8f;
+    opacity: 0.8;
+}
